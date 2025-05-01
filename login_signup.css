@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 231px 640px 284px 640px;
+  background-color: #FCFCFC
 
 }
 
@@ -167,6 +168,7 @@
   align-items: flex-start;
   gap: 10px;
   border-radius: 8px;
+  background-color: #e3f2ff
 }
 
 .inner {
