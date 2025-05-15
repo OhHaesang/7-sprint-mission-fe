@@ -17,7 +17,7 @@
   gtag('config', 'G-WHJDTY3SPL');
 </script>
 <!--------------------------------------------------------------------------------------->
-  <body class="entire" style="background-color: #FCFCFC;" >
+  <body class="entire" >
     <main class="container">
       <section class="logo_pandamarket">
         <a href="/index.html">
@@ -45,7 +45,7 @@
         <section class="pswd">
           <h2 class="text">비밀번호 확인</h2>
           <div class="input-wrapper">
-            <input class="text-input" type="password" name="userPassword" placeholder="비밀번호를 다시 한 번 입력해주세요" required />
+            <input class="text-input" type="password" name="userPasswordConfirm" placeholder="비밀번호를 다시 한 번 입력해주세요" required />
             <button type="button" class="btn-visibility">
               <img src="btn_visibility_on_24px.png" alt="비밀번호 표시" />
             </button>
@@ -56,7 +56,7 @@
             <div class="signup-text">회원가입</div>
           </button>
         </section>
-        <section class="easylogin" style="background-color: #e3f2ff;">
+        <section class="easylogin" >
           <div class="inner">
             <h2 class="e-l-text">간편 로그인하기</h2>
           <div class="google-kakao">
@@ -75,6 +75,13 @@
         </section>
         </div>
       </form>
+      <script src="form-signup.js"></script>
     </main>
   </body>
+  <div id="signupModal" class="modal hidden">
+    <div class="modal-content">
+      <p id="signupModalMessage"></p>
+      <button id="signupModalConfirmButton">확인</button>
+    </div>
+  </div>
 </html>
