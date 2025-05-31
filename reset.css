@@ -1,6 +1,4 @@
-@import "UTF-8";
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,7 +18,8 @@ a {
   color: inherit;
 }
 
-.warp {width: 1200px;
+.warp {
+  width: 1200px;
   margin: auto;
   border: 1px solid #000;
 }
