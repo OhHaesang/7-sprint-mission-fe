@@ -92,3 +92,55 @@ body {
   font-weight: 700;
   margin: 40px 0 20px;
 }
+
+.detail-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fcfcfc;
+}
+
+.detail-card {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.detail-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  background-color: #eee;
+}
+
+.detail-info {
+  flex: 1;
+}
+
+.detail-title {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.detail-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.detail-likes {
+  font-size: 18px;
+  color: #ff6392;
+  margin-bottom: 16px;
+}
+
+.detail-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
